@@ -1,7 +1,7 @@
 pic2shop-client
 ===============
 
-Android and iOS client apps for the mobile barcode scanners *pic2shop*® and
+Android and iOS client apps for the mobile barcode scanners *pic2shop* ® and
 *pic2shop PRO*.
 
 **This is not a barcode scanner.** This code demonstrates how to call pic2shop
