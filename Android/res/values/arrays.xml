@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+	<string-array name="barcode_types_vals">
+	    <item>EAN13</item>
+	    <item>EAN8</item>
+	    <item>UPCE</item>
+	    <item>ITF</item>
+	    <item>CODE39</item>
+	    <item>CODE128</item>
+	    <item>CODABAR</item>
+	    <item>QR</item>
+	</string-array>
+
+</resources>

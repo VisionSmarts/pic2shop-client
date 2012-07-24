@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">pic2shop client</string>
+    
+    <string name="ean_and_upc">EAN-13 &amp; UPC-A</string>
+    <string name="ean8">EAN-8</string>
+    <string name="upce">UPC-E</string>
+    <string name="itf">Interlaced 2 of 5 (ITF)</string>
+    <string name="code39">CODE 39</string>
+    <string name="code128">CODE 128</string>
+    <string name="codabar">Codabar (NW-7, USD-4)</string>
+    <string name="qr">QR code (2D)</string>
+    
+    <string name="scan_with_free_pic2shop">Scan with free pic2shop</string>
+    <string name="scan_with_pic2shop_pro">Scan with pic2shop Pro</string>
+    <string name="install_free_pic2shop">Install free pic2shop</string>
+    <string name="install_pic2shop_pro">Install pic2shop Pro</string>
+    
+    <string name="result">Result:</string>
+    <string name="error">Error</string>
+    
+</resources>

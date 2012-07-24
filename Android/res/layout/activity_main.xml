@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TableRow >
+		     <CheckBox
+		         android:id="@+id/checkbox_ean_and_upc"
+		         android:text="@string/ean_and_upc"
+		         android:checked="true" />
+		     <CheckBox
+		         android:id="@+id/checkbox_ean8"
+		         android:text="@string/ean8" />
+            
+        </TableRow>
+        <TableRow >
+		     <CheckBox
+		         android:id="@+id/checkbox_upce"
+		         android:text="@string/upce" />
+		     <CheckBox
+		         android:id="@+id/checkbox_itf"
+		         android:text="@string/itf" />
+        </TableRow>
+        <TableRow >
+	     <CheckBox
+	         android:id="@+id/checkbox_code39"
+	         android:text="@string/code39" />
+	     <CheckBox
+	         android:id="@+id/checkbox_code128"
+	         android:text="@string/code128" />
+        </TableRow>
+        <TableRow>
+	     <CheckBox
+	         android:id="@+id/checkbox_codabar"
+	         android:text="@string/codabar"
+	         android:layout_span="2"/>
+        </TableRow>
+        <TableRow>
+	     <CheckBox
+	         android:id="@+id/checkbox_qr"
+	         android:text="@string/qr"
+	         android:layout_span="2"/>
+        </TableRow>
+    </TableLayout>
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+	    <Button
+	        android:id="@+id/button_install_free_pic2shop"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/install_free_pic2shop" />
+	    <Button
+	        android:id="@+id/button_install_pic2shop_pro"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/install_pic2shop_pro" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+	    <Button
+	        android:id="@+id/button_scan_with_free_pic2shop"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/scan_with_free_pic2shop" />
+	    <Button
+	        android:id="@+id/button_scan_with_pic2shop_pro"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/scan_with_pic2shop_pro" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        />
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        android:gravity="center_horizontal"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+	    <Button
+	        android:id="@+id/button_launch_url_intent"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="p2spro://scan" />
+    </LinearLayout>
+
+</LinearLayout>
