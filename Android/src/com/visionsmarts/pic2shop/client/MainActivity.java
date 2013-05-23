@@ -96,9 +96,8 @@ public class MainActivity extends Activity implements OnClickListener {
 			Utils.launchMarketToInstallProScannerApp(this);
 		} else if (v == buttonLaunchUrlIntent) {
 			Intent intent = new Intent(
-			// XXX
 					Intent.ACTION_VIEW,
-					Uri.parse("p2spro://scan?formats=EAN13,EAN8,UPCE,ITF,CODE39,CODE128,CODABAR&callback=http://kkk.com/CODE_FORMAT"));
+					Uri.parse("p2spro://scan?formats=EAN13,EAN8,UPCE,ITF,CODE39,CODE128,CODABAR,QR&callback=http%3A%2F%2Fdemo.pic2shop.com%2Fdumpargs.php%3Fc%3DCODE%26f%3DFORMAT"));
 			startActivity(intent);
 		} else {
 			Log.e(TAG, "Wrong Button tapped.");
