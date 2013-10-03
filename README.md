@@ -16,8 +16,7 @@ Windows Phone®.  It reads UPC-A, UPC-E, EAN-13, EAN-8 and QR codes. The app als
 display comparison shopping results for UPC and EAN.
 
 **Pic2shop PRO** is a paid app available for iOS and Android.  In addition to the
-barcode symbologies supported by pic2shop, it reads Code 39, Code 128, ITF
-(Interleaved 2 of 5) and Codabar (aka USD-4, NW-7). After each scan, the app
+barcode symbologies supported by pic2shop, it reads Code 39, Code 128, Code 93, ITF(Interleaved 2 of 5), Standard 2 of 5 (aka Code 25 or Ind2of5), and Codabar (aka USD-4, NW-7). After each scan, the app
 displays a user-defined url with the barcode string as parameter in the embedded
 web browser.
 
