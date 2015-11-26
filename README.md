@@ -73,3 +73,7 @@ WINDOWS PHONE is a trademark of Microsoft Corporation.
 [1]: http://www.pic2shop.com                  "pic2shop"
 [2]: http://www.pic2shop.com/pro_version.html "pic2shop PRO"
 [3]: http://www.visionsmarts.com              "Vision Smarts"
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/VisionSmarts/pic2shop-client/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
