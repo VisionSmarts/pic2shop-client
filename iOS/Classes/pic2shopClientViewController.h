@@ -1,7 +1,7 @@
 //
 //  pic2shopClientViewController.h
 //  pic2shopClient
-//  Copyright 2010-2012 Vision Smarts SPRL
+//  Copyright 2010-2015 Vision Smarts SPRL
 //
 
 #import <UIKit/UIKit.h>
@@ -19,6 +19,8 @@
 @property (nonatomic, retain) IBOutlet UISwitch *UPCSwitch;
 @property (nonatomic, retain) IBOutlet UISwitch *ITFSwitch;
 @property (nonatomic, retain) IBOutlet UISwitch *Code39Switch;
+@property (nonatomic, retain) IBOutlet UISwitch *Code93Switch;
+@property (nonatomic, retain) IBOutlet UISwitch *Code25Switch;
 @property (nonatomic, retain) IBOutlet UISwitch *Code128Switch;
 @property (nonatomic, retain) IBOutlet UISwitch *CodabarSwitch;
 @property (nonatomic, retain) IBOutlet UISwitch *QRSwitch;
@@ -32,6 +34,8 @@
 -(IBAction)switchUPC:(id)sender;
 -(IBAction)switchITF:(id)sender;
 -(IBAction)switchCode39:(id)sender;
+-(IBAction)switchCode93:(id)sender;
+-(IBAction)switchCode25:(id)sender;
 -(IBAction)switchCode128:(id)sender;
 -(IBAction)switchCodabar:(id)sender;
 -(IBAction)switchQR:(id)sender;

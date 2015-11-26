@@ -1,7 +1,7 @@
 //
 //  pic2shopClientAppDelegate.h
 //  pic2shopClient
-//  Copyright 2010-2012 Vision Smarts SPRL
+//  Copyright 2010-2015 Vision Smarts SPRL
 //
 
 #import <UIKit/UIKit.h>

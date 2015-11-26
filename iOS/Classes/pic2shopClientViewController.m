@@ -1,14 +1,14 @@
 //
 //  pic2shopClientViewController.m
 //  pic2shopClient
-//  Copyright 2010-2012 Vision Smarts SPRL
+//  Copyright 2010-2015 Vision Smarts SPRL
 //
 
 #import "pic2shopClientViewController.h"
 
 @implementation pic2shopClientViewController
 
-@synthesize resultIsLabel,barcodeLabel,formatLabel,UPCSwitch,ITFSwitch,Code39Switch,Code128Switch,CodabarSwitch,QRSwitch;
+@synthesize resultIsLabel,barcodeLabel,formatLabel,UPCSwitch,ITFSwitch,Code39Switch,Code93Switch,Code25Switch,Code128Switch,CodabarSwitch,QRSwitch;
 @synthesize pic2shopInstalledLabel,pic2shopPROInstalledLabel,scanButton;
 
 
@@ -52,6 +52,8 @@
     }
     if (!pic2shopPROIsInstalled) {
         Code39Switch.on  = NO;
+        Code93Switch.on  = NO;
+        Code25Switch.on  = NO;
         Code128Switch.on = NO;
         CodabarSwitch.on = NO;
         ITFSwitch.on     = NO;
@@ -122,6 +124,8 @@
     NSString *formats = @"";
     if (UPCSwitch.on) formats = [formats stringByAppendingString:@",EAN13,EAN8,UPCE"];  // UPCA is subset of EAN13
     if (Code39Switch.on) formats = [formats stringByAppendingString:@",Code39"];
+    if (Code93Switch.on) formats = [formats stringByAppendingString:@",Code93"];
+    if (Code25Switch.on) formats = [formats stringByAppendingString:@",Std2of5"];
     if (Code128Switch.on) formats = [formats stringByAppendingString:@",Code128"];
     if (ITFSwitch.on) formats = [formats stringByAppendingString:@",ITF"];
     if (CodabarSwitch.on) formats = [formats stringByAppendingString:@",Codabar"];
@@ -163,6 +167,16 @@
     if ( (Code39Switch.on)  && (!pic2shopPROIsInstalled) ) {
         [self promptForPic2shop:2 forFormat:@"Code39 barcodes"];
     }        
+}
+-(IBAction)switchCode93:(id)sender {
+    if ( (Code93Switch.on)  && (!pic2shopPROIsInstalled) ) {
+        [self promptForPic2shop:2 forFormat:@"Code93 barcodes"];
+    }
+}
+-(IBAction)switchCode25:(id)sender {
+    if ( (Code25Switch.on)  && (!pic2shopPROIsInstalled) ) {
+        [self promptForPic2shop:2 forFormat:@"Std2of5 barcodes"];
+    }
 }
 -(IBAction)switchCode128:(id)sender {
     if ( (Code128Switch.on)  && (!pic2shopPROIsInstalled) ) {

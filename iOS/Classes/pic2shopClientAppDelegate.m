@@ -1,7 +1,7 @@
 //
 //  pic2shopClientAppDelegate.m
 //  pic2shopClient
-//  Copyright 2010-2012 Vision Smarts SPRL
+//  Copyright 2010-2015 Vision Smarts SPRL
 //
 
 #import "pic2shopClientAppDelegate.h"
@@ -14,6 +14,8 @@
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
+    
+    window.rootViewController = viewController;
     
     // Override point for customization after app launch    
     [window addSubview:viewController.view];
