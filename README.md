@@ -11,8 +11,8 @@ from another app and how to retrieve the result.
 About pic2shop and pic2shop PRO
 -------------------------------
 
-**Pic2shop** is a free barcode scanner app available for iOS®, Android® and
-Windows Phone®.  It reads UPC-A, UPC-E, EAN-13, EAN-8 and QR codes. The app also
+**Pic2shop** is a free barcode scanner app available for iOS® and Android®.
+It reads UPC-A, UPC-E, EAN-13, EAN-8 and QR codes. The app also
 display comparison shopping results for UPC and EAN.
 
 **Pic2shop PRO** is a paid app available for iOS and Android.  In addition to the
@@ -45,9 +45,6 @@ the iOS custom URL scheme mechanism.
 `Android/` Eclipse project with sample Android app. The call to pic2shop uses the
 Android Intent mechanism.
 
-Windows Phone does not have a mechanism equivalent to the custom URL scheme or
-Intent at this time (7.1)
-
 
 Functionalities
 ---------------
@@ -68,12 +65,9 @@ other countries.
 IOS is a trademark or registered trademark of Cisco in the U.S. and other
 countries. 
 ANDROID is a trademark of Google Inc. 
-WINDOWS PHONE is a trademark of Microsoft Corporation.
 
 [1]: http://www.pic2shop.com                  "pic2shop"
 [2]: http://www.pic2shop.com/pro_version.html "pic2shop PRO"
 [3]: http://www.visionsmarts.com              "Vision Smarts"
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/VisionSmarts/pic2shop-client/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
